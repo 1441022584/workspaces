@@ -52,6 +52,7 @@ public class UserController {
         List<UserBean>  list = userService.getUserList();
         System.out.println(list);
         System.out.println("asd");
+         System.out.println("asdsssss");
         return list;
     }
 
