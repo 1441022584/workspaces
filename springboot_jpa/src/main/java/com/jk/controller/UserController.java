@@ -51,6 +51,7 @@ public class UserController {
     public List<UserBean> getUserList(){
         List<UserBean>  list = userService.getUserList();
         System.out.println(list);
+        System.out.println("asd");
         return list;
     }
 
